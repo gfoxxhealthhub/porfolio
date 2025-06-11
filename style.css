@@ -16,13 +16,10 @@ header {
 }
 
 nav {
-  background: #333;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   z-index: 1000;
+  background: #333;
 }
 
 
