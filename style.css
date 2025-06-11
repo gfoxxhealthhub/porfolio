@@ -19,8 +19,7 @@ header {
 }
 
 nav {
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 500;
   background: #333;
 }
