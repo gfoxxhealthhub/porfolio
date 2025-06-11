@@ -20,6 +20,7 @@ header {
 
 nav {
   position: sticky;
+  top: auto;
   background: #333;
 }
 
