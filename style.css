@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  position: sticky;
   background: #0052cc;
   color: white;
   padding: 40px 20px;
