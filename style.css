@@ -20,7 +20,7 @@ header {
 
 nav {
   position: fixed;
-  z-index: 500;
+  z-index: 1100;
   background: #333;
 }
 
