@@ -1,8 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-top: 60px
-  padding: 0;
+  padding-top: 120px; /* Adjusted to account for header + nav height */
   line-height: 1.6;
   background: #f9f9f9;
   color: #333;
@@ -19,15 +18,13 @@ header {
 }
 
 nav {
-  position: relative;
-  top: 60px;
-  z-index: 1100;
+  position: sticky; /* changed from relative to sticky */
+  top: 100px; /* adjust to match the bottom of the header */
+  z-index: 999;
   background: #333;
   padding: 10px 5px;
   text-align: center;
-
 }
-
 
 nav a {
   color: white;
@@ -71,4 +68,3 @@ footer {
   object-fit: cover;
   border: 3px solid white;
 }
-
