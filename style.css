@@ -20,6 +20,7 @@ header {
 
 nav {
   position: relative;
+  top: 60px;
   z-index: 1100;
   background: #333;
   padding: 10px 5px;
