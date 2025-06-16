@@ -18,7 +18,7 @@ header {
 }
 
 nav {
-  position: sticky; /* changed from relative to sticky */
+  position: fixed; /* changed from relative to sticky */
   top: 100px; /* adjust to match the bottom of the header */
   z-index: 999;
   background: #333;
