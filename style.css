@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   background: #808080;
@@ -18,8 +18,8 @@ header {
 }
 
 nav {
-  position: fixed; /* changed from relative to sticky */
-  top: 100px; /* adjust to match the bottom of the header */
+  position: absolute; /* changed from relative to sticky */
+  top: 0px; /* adjust to match the bottom of the header */
   z-index: 999;
   background: #333;
   padding: 10px 5px;
