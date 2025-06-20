@@ -70,3 +70,7 @@ footer {
   object-fit: cover;
   border: 3px solid white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
